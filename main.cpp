@@ -9,7 +9,7 @@ int factorialR(int n)
    if(n<=1){
       return n;
    }
-   return n*factorialR(n-1);
+   return n*(factorialR(n-1));
 }
  
 int main()
@@ -19,10 +19,11 @@ int main()
 
    cout << "Please enter a number for the starting point: ";
 
-   cin>>n; //Promping user for input
+   cin>>n; //Prompting user for input
 
    cout << "The factorial is: ";
 
    cout<<factorialR(n)<<endl;//Recursive call
-   return 0;
+
+return 0;
 }
