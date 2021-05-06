@@ -19,7 +19,7 @@ int main()
 
    cout << "Please enter a number for the starting point: ";
 
-   cin>>n;//Prompting user for input
+   cin>>n; //Promping user for input
 
    cout << "The factorial is: ";
 
